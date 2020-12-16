@@ -56,7 +56,7 @@ console.log(factorial(5));
 
 // 4 kata
 
-console.log("fibonacci");
+/*console.log("fibonacci");
 
  function fibonacci(result ,len) {
 
@@ -77,5 +77,20 @@ console.log("fibonacci");
 }
 
  console.log (fibonacci(8));
+*/
 
+// Kata 5
+console.log("fibonnacci");
 
+function fibonacci(n){
+  if(n ==1) {
+    return 0
+  }
+  if(n == 2){
+    return 1
+  }else{
+    return fibonacci(n-2) + fibonacci(n-1)
+  }
+}
+
+console.log(fibonacci(8));
